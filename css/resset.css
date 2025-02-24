@@ -1,0 +1,92 @@
+/* Définir la taille de base pour le rem */
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-size: 1.6rem; /* 16px */
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Exemple de mise en page */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+nav {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: inherit;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+GiusMili — Aujourd’hui à 17:47
+/* Définir la taille de base pour le rem */
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font: 1.6rem sans-serif; /* 16px */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    letter-spacing: 0.1rem;
+    min-height: 100svh;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: xx-large;
+    margin: 0;
+    font-weight: normal;
+}
+p, figure{
+    margin: 0;
+}
