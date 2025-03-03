@@ -1,2 +1,41 @@
 @import url(./resset.css);
 
+/* theme*/
+header {
+      
+    h1{   
+        background-color: black;
+        line-height: 6,5rem;  
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+}
+    .gallery-content{ 
+        max-width:  90.0rem;
+        margin: 5rem auto 2rem;
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 2rem;
+
+
+       }
+        
+       .gallery-grid li img{
+        width: 100%;
+        filter: drop-shadow(0 0 0.9rem crimson);
+       }
+    }
+        
+.picture {
+    display: block;
+    margin: auto;
+
+    justify-content: center;
+}
+
+    
+    
